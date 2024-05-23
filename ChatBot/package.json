@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@langchain/community": "^0.0.50",
+    "@langchain/openai": "^0.0.28",
+    "punycode": "^2.3.1"
+  },
+  "name": "chatbot",
+  "description": "This Chatbot uses ChatOpenAI model from Langchain to chat with your data and the interface uses Gradio.\r It can load PDF documents from a directory named _datasets_.\r Also it Currently uses chroma for vectorization and OpenAIEmbeddings for Embeddings.",
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": "14.x"
+  },
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
